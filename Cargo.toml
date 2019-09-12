@@ -19,7 +19,9 @@ embedded-hal = "0.2.3"
 panic-halt = "0.2.0"
 
 [features]
+default = ["bootloader"]
 rt = ["cc2538/rt"]
+bootloader = []
 
 [profile.dev]
 incremental = false
