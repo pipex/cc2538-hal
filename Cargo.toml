@@ -10,8 +10,10 @@ edition = "2018"
 
 [dependencies]
 cortex-m = "0.5.8"
+nb = "0.1.2"
 cortex-m-rt = "0.6.5"
-cc2538 = { git = "https://github.com/pipex/cc2538.git" }
+cc2538 = "0.2.0"
+embedded-hal = "0.2.3"
 
 [dev-dependencies]
 panic-halt = "0.2.0"
