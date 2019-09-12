@@ -1,7 +1,7 @@
 [package]
 authors = ["Felipe Lalanne <felipe@lalanne.cl>"]
 description = "Hardware Access Layer for CC2538 System-on-Chip"
-keywords = ["no-std", "arm", "cortex-m", "cc2538", "hal"]
+keywords = ["no-std", "arm", "cortex-m", "cc2538", "embedded-hal"]
 license = "MIT"
 name = "cc2538-hal"
 version = "0.1.0"
